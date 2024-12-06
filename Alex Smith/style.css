@@ -1,0 +1,838 @@
+:root {
+    --red: #ff305b;
+}
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sectionOne
+{
+    background:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(images/slider-02.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.logo a 
+{
+    color: var(--red);
+    display: block;
+    font-size: 24px;
+    font-weight: 900;
+    width: 13%;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    text-decoration: none;
+
+}
+.logo
+{
+    padding-left: 70px;
+    padding-top: 15px;
+}
+.navBar 
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+.navList
+{
+    width: 50%;
+    padding-right: 70px;
+    display: inline;
+    
+}
+.navList ul 
+{
+    display: flex;
+    list-style-type:none ;
+}
+.navlist a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 18px;
+    padding-top: 0;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    transition: 400ms;
+}
+.navlist a:hover
+{
+    color: #ff305b;
+    transition: 400ms;
+}
+.sectionOneText
+{
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    
+}
+.sectionOneText h1
+{
+    color:#ff305b;
+    font-size: 70px;
+}
+.sectionOneText h2
+{
+    color: white;
+    text-align: center;
+}
+.sectionOneText h3
+{
+    font-weight: normal;
+}
+.sectionTwoStart img 
+{
+    height: 320px;
+    width: 300px;
+    padding-left: 200px;
+}
+.sectionTwoEnd
+{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 50px;
+    padding-top: 110px;
+    padding-top:10px;
+}
+.sectionTwoEnd hr
+{
+    border: none;
+    border-top: 1px dotted black;
+    height: 1px;
+    width: 100%;
+}
+.sectionTwoEnd h1 
+{
+    border-left: 5px solid #ff305b;
+    padding-left: 10px;
+}
+.sectionTwoEnd p
+{
+    font-weight:100;
+    text-align: left;
+}
+.sectionTwo
+{
+    padding-top: 120px;
+    display: flex;
+}
+.profile button
+{
+    color: white;
+    width: 150px;
+    height: 50px;
+    background-color: #ff305b;
+    border-radius: 5px;
+    border: none;
+    transition: 500ms;
+}
+.profile button:hover
+{
+    transition: 500ms;
+    background-color: orange;
+}
+.profile ul li 
+{
+    float: left;
+    margin-bottom: 16px;
+    font-size: 14px;
+    vertical-align: top;
+    width: 50%;
+    
+}
+.profile .btn1 i 
+{
+    padding-left: 10px;
+}
+.profile .btn2 i 
+{
+    padding-left: 10px;
+}
+.sectionThree
+{
+    background-color: #DCDCDC;
+
+}
+.sectionThree h1
+{
+    text-align: center;
+    padding-top: 80px;
+}
+.sectionThree .hr1 
+{
+    width: 10%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionThree .hr2
+{
+    width: 25%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionThree .hr3
+{
+    width: 10%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionEnd
+{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.first i
+{
+    text-align: center;
+    align-items: center;
+    color: #ff305b;
+    width: 100%;
+}
+.first 
+{
+    transition: 500ms;
+    width: 25%;
+    height: 200px;
+    padding-right: 50px;
+}
+.second
+{
+    transition: 500ms;
+    width: 25%;
+    height: 200px;
+    padding-right: 50px;
+}
+.third
+{
+    transition: 500ms;
+    width: 25%;
+    height: 200px;
+    padding-right: 50px;
+}
+.fourth
+{
+    transition: 500ms;
+    width: 25%;
+    height: 200px;
+    padding-right: 50px;
+}
+.second i
+{
+    text-align: center;
+    align-items: center;
+    color: #ff305b;
+    width: 100%;
+
+}
+.third i
+{
+    text-align: center;
+    align-items: center;
+    color: #ff305b;
+    width: 100%;
+
+}
+.fourth i
+{
+    text-align: center;
+    align-items: center;
+    color: #ff305b;
+    width: 100%;
+
+}
+.first h2 ,p
+{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.second h2 ,p
+{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.third h2 ,p
+{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.third p 
+{
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.fourth h2 ,p
+{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.first:hover {
+    background-color: white;
+    transition: 500ms;
+}
+.second:hover {
+    background-color: white;
+    transition: 500ms;
+}
+.third:hover {
+    background-color: white;
+    transition: 500ms;
+}
+.fourth:hover {
+    background-color: white;
+    transition: 500ms;
+}
+.sectionFour
+{
+    padding-bottom: 100px;
+}
+.sectionFour h1 
+{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.sectionFour .hr1 
+{
+    width: 10%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionFour .hr2
+{
+    width: 25%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionFour .hr3
+{
+    width: 10%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+    margin-bottom: 50px;
+}
+.sectionFourStart
+{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+.sectionFour button 
+{
+    width: 120px;
+    text-align: center;
+    align-items: center;
+    display: inline;
+    background-color: transparent;
+    border: none;
+    color: #333333;
+}
+.sectionFourEnd1
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sectionFourEnd2
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.firstImage img 
+{
+   width: 70%;
+   transition: 500ms;
+}
+.secondImage img
+{
+    width: 70%;
+    transition: 500ms;
+}
+.thirdImage img
+{
+    width: 70%;
+    transition: 500ms;
+}
+.fourthImage img
+{
+    width: 70%;
+    transition: 500ms;
+}
+.fifthImage img
+{
+    width: 70%;
+    transition: 500ms;
+}
+.sixthImage img
+{
+    width: 70%;
+    transition: 500ms;
+}
+.firstImage img:hover
+{
+    transition: 500ms;
+    filter: brightness(50%);
+
+}
+.secondImage img:hover
+{
+    transition: 500ms;
+    filter: brightness(50%);
+
+}
+.thirdImage img:hover
+{
+    transition: 500ms;
+    filter: brightness(50%);
+
+}
+.fourthImage img:hover
+{
+    transition: 500ms;
+    filter: brightness(50%);
+
+}
+.fifthImage img:hover
+{
+    transition: 500ms;
+    filter: brightness(50%);
+
+}
+.sixthImage img:hover
+{
+    transition: 500ms;
+    filter: brightness(50%);
+
+}
+.sectionFive
+{
+    background-color: #DCDCDC;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.sectionFiveStart
+{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding-left: 370px;
+}
+.member
+{
+    padding-right: 50px;
+    font-size: 15px;
+}
+.projects
+{
+    padding-right: 50px;
+    font-size: 15px;
+}
+.download
+{
+    padding-right: 50px;
+    font-size: 15px;
+}
+.code 
+{
+    padding-right: 50px;
+    font-size: 15px;
+}
+.member i 
+{
+    color: #ff305b;
+    font-size: 23px;
+}
+.projects i 
+{
+    color: #ff305b;
+    font-size: 23px;
+}
+.download i 
+{
+    color: #ff305b;
+    font-size: 23px;
+}
+.code i 
+{
+    color: #ff305b;
+    font-size: 23px;
+}
+.member h3 
+{
+    color: #555555;
+}
+.projects h3 
+{
+    color: #555555;
+}
+.download h3 
+{
+    color: #555555;
+}
+.code h3 
+{
+    color: #555555;
+}
+.sectionSix 
+{
+    padding-top: 100px;
+}
+.sectionSixStart h1 
+{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.sectionSixStart .hr1 
+{
+    width: 10%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionSixStart .hr2
+{
+    width: 25%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionSixStart .hr3
+{
+    width: 10%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+    margin-bottom: 50px;
+}
+.sectionSixEnd .stars
+{
+    color: rgb(225, 195, 23);
+}
+.sectionSixEnd
+{
+    border: 5px solid transparent;
+    border-radius: 10px;
+    background-color:#DCDCDC;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 800px;
+    height: 300px;
+}
+.sectionSixEndImage img
+{
+    border-radius: 100%;
+    position:absolute;
+}
+.sectionSixEndImage
+{
+    background-color: blue;
+    width: 20%;
+}
+.sectionSixEndText
+{
+    padding-left: 180px;
+    position: relative;
+    width: 70%;
+    color: #555555;
+    text-align: left;
+}
+.sectionSixEndText h1
+{
+    color: black;
+}
+.sectionSeven 
+{
+    background-color: #DCDCDC;
+    margin-top: 100px;
+
+}
+.sectionSevenStart h1 
+{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.sectionSevenStart .hr1 
+{
+    width: 10%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionSevenStart .hr2
+{
+    width: 25%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionSevenStart .hr3
+{
+    width: 10%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+    margin-bottom: 50px;
+}
+.sectionSevenEnd
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 100px;
+   
+}
+.firstSec
+{
+    width: 26%;
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 100px;
+    height: 400px;
+}
+.secondSec
+{
+    width: 26%;
+    background-color: white;
+    margin-right: 50px;
+    height: 400px;
+}
+.thirdSec
+{
+    width: 26%;
+    background-color: white;
+    margin-right: 50px;
+    height: 400px;
+}
+.firstSec img
+{
+    width: 100%;
+    height: 200px;
+}
+.secondSec img
+{
+    width: 100%;
+    height: 200px;
+}
+.thirdSec img
+{
+    width: 100%;
+    height: 200px;
+}
+.firstSec h3, h2, a, p 
+{
+    color: #555555;
+    padding-left: 10px;
+    align-items: left;
+    text-align: left;
+}
+.secondSec h3, h2, a, p 
+{
+    color: #555555;
+    padding-left: 10px;
+    align-items: left;
+    text-align: left;
+}
+.thirdSec h3, h2, a, p 
+{
+    color: #555555;
+    text-decoration: none;
+    padding-left: 10px;
+    align-items: left;
+    text-align: left;
+}
+.firstSec a:hover
+{
+    color: #ff305b;
+    transition: 500ms;
+}
+.secondSec a:hover
+{
+    color: #ff305b;
+    transition: 500ms;
+}
+.thirdSec a:hover
+{
+    color: #ff305b;
+    transition: 500ms;
+}
+.firstsec a 
+{
+    transition: 500ms;
+}
+.secondsec a
+{
+    transition: 500ms;
+}
+.thirdsec a 
+{
+    transition: 500ms;
+}
+
+.sectionEight
+{
+    padding-bottom: 100px;
+}
+.sectionEightStart h1 
+{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.sectionEightStart .hr1 
+{
+    width: 10%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionEightStart .hr2
+{
+    width: 25%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+}
+.sectionEightStart .hr3
+{
+    width: 10%;
+    background-color: #ff305b;
+    border-top: 1px solid #ff305b;
+    margin-bottom: 50px;
+}
+.sectionEightEnd
+{
+    width: 50%;
+    height: 40%;
+    align-items: center;
+    padding-left: 350px;
+}
+form 
+{
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+input {
+    height: 40px;
+    display: flex;
+    border-radius: 5px;
+    border: 1px black solid;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.firstinput
+{
+    width: 45%;
+    margin-right: 20px;
+}
+.secondinput
+{
+    width: 51%;
+    margin-bottom: 40px;
+}
+
+.thirdinput
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px black solid;
+    margin-bottom: 10px;
+    margin-bottom: 40px;
+    
+}
+.fourthinput
+{
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px black solid;
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+    
+}
+.sectionEightEnd button 
+{
+    background-color: #ff305b;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    transition: 500ms;
+}
+.sectionEightEnd button:hover
+{
+    transition: 500ms;
+    background-color: orange;
+}
+.sectionNine
+{
+    background-color: rgb(33, 31, 31);
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    color: white;
+}
+.sectionNine a 
+{
+    color: #ff305b;
+    width: 100px;
+    height: 20px;
+
+}
+.sectionNine a:hover
+{
+    text-decoration: underline;
+}
+.sectionNineEnd
+{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.sectionNineEnd p
+{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 500px;
+    width: 200px;
+
+}
+.sectionNineStart i 
+{
+    padding-right: 50px;
+}
+.sectionNineEnd .secondp 
+{
+    margin-left: 0;
+}
